@@ -1,0 +1,15 @@
+<html>
+<title> Search user</title>
+<head></head>
+<body>
+<h2 align="center"> Search User </h2>
+<br>
+<div align="center">
+<form method='GET' action="">
+<input type='text' name='q' placeholder="search user" value ='{{ request.GET.q }}' >
+<input type='submit' value="search">
+</form>
+{%if title %} {{title}} {% endif %}
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+<title> Report</title>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align:center;
+}	
+</style>
+</head>
+<body>
+<h1 align="center"> Report Table </h1>
+<table align="center">
+  <tr>
+  	<th>Time</th>
+    <th>User Added</th>
+    <th>Requests</th> 
+  </tr>
+  <tr>
+    <td>Today</td>
+    <td>{{count_user_today}}</td>
+    <td>{{count_request_today}}</td>
+  </tr>
+  <tr>
+    <td>Current Week</td>
+    <td>{{count_user_week}}</td>
+    <td>{{count_request_week}}</td>
+  </tr>
+  <tr>
+    <td>Current Month</td>
+    <td>{{count_user_month}}</td>
+    <td>{{count_request_month}}</td>
+  </tr>
+ </table>
+</body>
+</html>
